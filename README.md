@@ -9,8 +9,7 @@ MPV-Vapoursynth
 sudo pacman -R mpv 
 paru -S mpv-vapoursynth
 sudo pacman -S vapoursynth-plugin-mvtools
-mkdir ~/.config/mpv
-cd ~/.config/mpv
+cd ~/.config/
 git clone https://github.com/tsukinaha/mpv-config.git
 cp -r mpv-config mpv
 rm -rf mpv-config
