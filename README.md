@@ -22,7 +22,7 @@ dst_fps = <补帧目标帧数，例如 60>
 ```
 mpv.conf 中 启动时应用补帧 加入这行
 ```
- vf=format=yuv420p,vapoursynth=~~/motioninterpolation.vpy:4:4   
+vf=format=yuv420p,vapoursynth=~~/motioninterpolation.vpy:4:4   
 ```
 ./script-opts/osc.conf 中修改 lua 缩放
 ```
