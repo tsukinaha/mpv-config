@@ -31,8 +31,8 @@ scaleforcedwindow=1.5
 用到一个油猴脚本和一个本地脚本   
 来自 https://github.com/kjtsune/embyToLocalPlayer   
    
-安装 ![embyToLocalPlayer](https://greasyfork.org/zh-CN/scripts/448648-embytolocalplayer)   
-安装 ![本地脚本](https://github.com/kjtsune/embyToLocalPlayer)   
+安装 [embyToLocalPlayer](https://greasyfork.org/zh-CN/scripts/448648-embytolocalplayer)   
+安装 [本地脚本](https://github.com/kjtsune/embyToLocalPlayer)   
 
 修改 embyToLocalPlayer_config.ini 中 mpv 的路径为
  /usr/bin/mpv   
