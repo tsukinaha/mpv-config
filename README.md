@@ -13,7 +13,7 @@ mkdir ~/.config/mpv
 cd ~/.config/mpv
 git clone https://github.com/tsukinaha/mpv-config.git
 cp -r mpv-config mpv
-rm mpv-config
+rm -rf mpv-config
 ```
 ## 自行设置部分   
 
