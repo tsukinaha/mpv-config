@@ -16,8 +16,14 @@ rm -rf mpv-config
 ```
 ## 自行设置部分   
 
-motioninterpolation.vpy 中 dst_fps = <补帧目标帧数，例如 60>   
-mpv.conf 中 启动时应用补帧 加入这行 vf=format=yuv420p,vapoursynth=~~/motioninterpolation.vpy:4:4   
+motioninterpolation.vpy 中 
+```
+dst_fps = <补帧目标帧数，例如 60>   
+```
+mpv.conf 中 启动时应用补帧 加入这行
+```
+ vf=format=yuv420p,vapoursynth=~~/motioninterpolation.vpy:4:4   
+```
 ./script-opts/osc.conf 中修改 lua 缩放
 ```
 scalewindowed=1.5 #修改为你想要的缩放倍数
