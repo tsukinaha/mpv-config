@@ -10,9 +10,7 @@ sudo pacman -R mpv
 paru -S mpv-vapoursynth
 sudo pacman -S vapoursynth-plugin-mvtools
 cd ~/.config/
-git clone https://github.com/tsukinaha/mpv-config.git
-cp -r mpv-config mpv
-rm -rf mpv-config
+git clone https://github.com/tsukinaha/mpv-config.git mpv
 ```
 ## 自行设置部分   
 
