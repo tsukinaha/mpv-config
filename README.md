@@ -1,17 +1,20 @@
 # Linux MPV Config 自用   
 操作系统 Archlinux    
 MPV-Vapoursynth  
-包含 mvtools Anime4K 一个lua emby调用方法 
+包含 mvtools rife-ncnn-vulkan Anime4K 一个lua emby调用方法 
 ## 预览 
 ![image.png](https://s2.loli.net/2023/10/17/eiQVHFqyukJv2mj.png)    
 ## 快速部署（包含 mpv-vapoursynth 安装）
 ```
 sudo pacman -R mpv 
-paru -S mpv-vapoursynth
-sudo pacman -S vapoursynth-plugin-mvtools
+paru -S mpv-vapoursynth vapoursynth-plugin-mvtools vapoursynth-plugin-rife-ncnn-vulkan-git
 cd ~/.config/
 git clone https://github.com/tsukinaha/mpv-config.git mpv
 ```
+## 操作说明
+见 input.conf
+rife 实时补帧可能需要 RTX4090 以上级别以上的显卡 不推荐用于实时补帧
+
 ## 自行设置部分   
 
 motioninterpolation.vpy 中 
@@ -22,7 +25,7 @@ mpv.conf 中 启动时应用补帧 加入这行
 ```
 vf=format=yuv420p,vapoursynth=~~/motioninterpolation.vpy:4:4   
 ```
-./script-opts/osc.conf 中修改 lua 缩放
+./script-opts/modernx.conf 中修改 lua 缩放
 ```
 scalewindowed=1.5 #修改为你想要的缩放倍数
 scalefullscreen=1.5
