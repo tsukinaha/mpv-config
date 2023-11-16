@@ -3,7 +3,7 @@
 MPV-Vapoursynth  
 包含 mvtools rife-ncnn-vulkan Anime4K 一个lua emby调用方法 
 ## 预览 
-![image.png](https://s2.loli.net/2023/10/17/eiQVHFqyukJv2mj.png)    
+![image.png](https://imgur.com/oz43h0x)   
 ## 快速部署（包含 mpv-vapoursynth 安装）
 ```
 sudo pacman -R mpv 
@@ -12,7 +12,7 @@ cd ~/.config/
 git clone https://github.com/tsukinaha/mpv-config.git mpv
 ```
 ## 操作说明
-见 input.conf
+见 input.conf      
 rife 实时补帧可能需要 RTX4090 以上级别以上的显卡 不推荐用于实时补帧
 
 ## 自行设置部分   
