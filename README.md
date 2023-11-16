@@ -3,7 +3,7 @@
 MPV-Vapoursynth  
 包含 mvtools rife-ncnn-vulkan Anime4K 一个lua emby调用方法 
 ## 预览 
-![image.png](https://imgur.com/oz43h0x)   
+![image.png](https://i.imgur.com/oz43h0x.png)   
 ## 快速部署（包含 mpv-vapoursynth 安装）
 ```
 sudo pacman -R mpv 
