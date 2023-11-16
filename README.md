@@ -1,7 +1,7 @@
 # Linux MPV Config 自用   
 操作系统 Archlinux    
 MPV-Vapoursynth  
-包含 mvtools rife-ncnn-vulkan Anime4K 一个lua emby调用方法 
+包含 mvtools rife-ncnn-vulkan Anime4K modernx osc thumbfast emby调用方法 
 ## 预览 
 ![image.png](https://i.imgur.com/oz43h0x.png)   
 ## 快速部署
