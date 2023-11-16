@@ -14,7 +14,7 @@ ignore_threshold=140
 # if n% of blocks change more than threshold then don't interpolate at all (default is 51%)
 scene_change_percentage=15
 
-dst_fps = 60
+dst_fps = 72
 # Interpolating to fps higher than 60 is too CPU-expensive, smoothmotion can handle the rest.
 # while (dst_fps > 60):
 #    dst_fps /= 2
