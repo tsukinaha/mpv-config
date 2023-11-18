@@ -13,7 +13,7 @@ git clone https://github.com/tsukinaha/mpv-config.git mpv
 ```
 ## 操作说明
 见 input.conf      
-rife 实时补帧可能需要 RTX4090 以上级别以上的显卡 不推荐用于实时补帧
+rife 实时补帧可能需要 RTX4090 以上级别的显卡 不推荐用于实时补帧
 
 ## 自行设置部分   
 
