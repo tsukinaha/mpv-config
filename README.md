@@ -6,14 +6,14 @@ MPV-Vapoursynth
 ![image.png](https://i.imgur.com/oz43h0x.png)   
 ## 快速部署
 ```
-sudo pacman -R mpv 
-paru -S mpv-vapoursynth vapoursynth-plugin-mvtools vapoursynth-plugin-rife-ncnn-vulkan-git
+sudo pacman -S mpv 
+paru -S vapoursynth-plugin-mvtools
 cd ~/.config/
 git clone https://github.com/tsukinaha/mpv-config.git mpv
 ```
 ## 操作说明
 见 input.conf      
-rife 实时补帧存在较大性能问题 尚未解决
+rife 实时补帧存在较大性能问题
 
 ## 自行设置部分   
 
